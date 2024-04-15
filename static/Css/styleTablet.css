@@ -1,0 +1,48 @@
+@charset "utf-8";
+
+@media only screen and (min-width:769px)   {
+    
+  #burger
+  {
+    display: none;
+  }
+ 
+  
+  nav > ul > li
+  {
+    margin-top: 50px;
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.325);
+   
+
+   border-radius: 10px;
+  border-top:none ;
+    
+
+  }
+  nav > ul > li:hover{
+    border-radius: 10px;
+  }
+
+
+#logo{
+    margin: auto;
+}
+.produtos{
+    display: flex;
+  flex-direction: row;
+ 
+    
+}
+#p{
+    display: none;
+}
+.flores{
+   
+   width: 50%;
+
+
+  
+   
+}
+}

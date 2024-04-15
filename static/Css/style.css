@@ -21,168 +21,172 @@ body, html{
     --font-destaque: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     --font-padrao: Arial, Helvetica, sans-serif;
 }
-#p{
-    text-align: center;
-    font-family: var(--font-padrao);
-    font-size: 1.1em;
-    color: #E0490D;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.315);
-    padding-top: 10px;
+
+    #p{
+        text-align: center;
+        font-family: var(--font-padrao);
+        font-size: 1.1em;
+        color: #E0490D;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.315);
+        padding-top: 10px;
+        
+    }
     
-}
-
-header {
-   
-    min-height: 150px;
-   background-image: linear-gradient(to bottom,white,var(--cor2));
-    padding-top: 20px;
-
-
-}
-header .top{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-right: 10px;
-
-
-}
-header >div{
-    padding-bottom: 20px;
-}
-#logo{
-    color: var(--cor1);
-   font-weight: 700;
-   margin-left: 10px;
-   font-size: 1.2em;
-
-}
-#burger{
-    color: var(--cor1);
-    font-weight: 700;
-    margin-left: 10px;
-    font-size: 1.6em;
-   cursor: pointer;
-   transition-duration: 0.5s;
-;
-}
-#burger:hover{
-    transform: translate(-3px ,-3px);
-    border-left: 2px solid #E0490D ;
-    font-size: 2em;
-}
-header >menu{
-   background-color: #DBC227;
-   padding: 10px;
-   box-shadow: 2px 2px 5px black;
- 
-}
-.lista{
-    list-style-type: none;
-}
-header >nav{
-   
-    text-align: center;
-    background-color: #DBC227;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.758);
+    header {
+       
+        min-height: 150px;
+       background-image: linear-gradient(to bottom,white,var(--cor2));
+        padding-top: 20px;
+    
+    
+    }
+    header .top{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-right: 10px;
+    
+    
+    }
+    header >div{
+        padding-bottom: 20px;
+    }
+    #logo{
+        color: var(--cor1);
+       font-weight: 700;
+       margin-left: 10px;
+       font-size: 1.2em;
+    
+    }
+    #burger{
+        color: var(--cor1);
+        font-weight: 700;
+        margin-left: 10px;
+        font-size: 1.6em;
+       cursor: pointer;
+       transition-duration: 0.5s;
     ;
-}
-nav ul{
-    list-style-type: none;
-}
-
-nav > ul > li>a {
-    display: block;
-    color: #E0490D;
-    text-decoration: none;
-    padding: 10px;
-    font-weight: 700;
-    transition-duration: 0.5s;
-    border-top: 2px solid white;
-  
-}
-nav > ul > li>a:hover{
-  background-color: rgba(179, 118, 4, 0.667);
-  color: white;
-  border: none;
-
-}
-main{
-    background-color: white;
-    margin-top: 10px;
-}
-main >h1{
-    font-family: var(--font-destaque);
-    font-size: 30px;
-   text-indent: 2px;
-    background-image: linear-gradient(to right, var(--cor2),transparent);
-
-}
-main>p{
-  
-    font-size: 20px;
-    text-align: center;
-    padding: 10px;
-}
-
-.produtos{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 20px;
-    padding: 20px;
+    }
+    #burger:hover{
+        transform: translate(-3px ,-3px);
+        border-left: 2px solid #E0490D ;
+        font-size: 2em;
+    }
+    header >menu{
+       background-color: #DBC227;
+       padding: 10px;
+       box-shadow: 2px 2px 5px black;
+     
+    }
+    .lista{
+        list-style-type: none;
+    }
+    header >nav{
+       
+        text-align: center;
+        background-color: #DBC227;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.758);
+        ;
+    }
+    nav ul{
+        list-style-type: none;
+    }
     
-}
-.flores{
-    background-color: var(--cor4);
-    border: 1px solid #E0490D;
-    border-radius: 10px;
-    overflow: hidden;
-    text-align: center;
-}
-.flores img{
-    background-position: center bottom;
-       background-size: auto;
-        background-attachment: fixed;
-        max-width: 98%;
-        height: auto;
+    nav > ul > li>a {
+        display: block;
+        color: #E0490D;
+        text-decoration: none;
         padding: 10px;
-        border-radius: 20px;
+        font-weight: 700;
+        transition-duration: 0.5s;
+        border-top: 2px solid white;
+      
+    }
+    nav > ul > li>a:hover{
+      background-color: rgba(179, 118, 4, 0.667);
+      color: white;
+      border: none;
+    
+    }
+    main{
+        background-color: white;
+        margin-top: 10px;
+    }
+    main >h1{
+        font-family: var(--font-destaque);
+        font-size: 30px;
+       text-indent: 2px;
+        background-image: linear-gradient(to right, var(--cor2),transparent);
+    
+    }
+    main>p{
+      
+        font-size: 20px;
+        text-align: center;
+        padding: 10px;
+    }
+    
+    .produtos{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+        padding: 20px;
+        
+    }
+    .flores{
+        background-color: var(--cor4);
+        border: 1px solid #E0490D;
+        border-radius: 10px;
+        overflow: hidden;
+        text-align: center;
+    }
+    .flores img{
+      
+        background-position: center bottom;
+           background-size: auto;
+            background-attachment: fixed;
+            max-width: 98%;
+            height: auto;
+            padding: 10px;
+            border-radius: 20px;
+        
+        
+    }
+    .flores i{
+        color:#E0490D;
+    }
+    figcaption{
+        padding-bottom: 10px;
+        padding-top: 5px;
+    }
+    footer{
+        padding: 10px;
+        min-height: 100px;
+        background-color: #DBC227;
+        text-align: center;
+        color: #E0490D;
+        font-weight: 600;
+       
+    }
+    footer i{
+       margin: 20px;
+        text-align: center;
+        text-decoration: none;
+        font-weight: bolder;
+        font-size: 30px;
+        transform: translate(-5px ,-5px);
+        transition-duration: 1s;
+        cursor: pointer;
+       
     
     
-}
-.flores i{
-    color:#E0490D;
-}
-figcaption{
-    padding-bottom: 10px;
-    padding-top: 5px;
-}
-footer{
-    padding: 10px;
-    min-height: 100px;
-    background-color: #DBC227;
-    text-align: center;
-    color: #E0490D;
-    font-weight: 600;
-   
-}
-footer i{
-   margin: 20px;
-    text-align: center;
-    text-decoration: none;
-    font-weight: bolder;
-    font-size: 30px;
-    transform: translate(-5px ,-5px);
-    transition-duration: 1s;
-    cursor: pointer;
-   
-
-
-}
-footer i:hover{
-    transform: translate(-5px ,-5px);
-}
-footer p{
-font-size: 18px;
-}
+    }
+    footer i:hover{
+        transform: translate(-5px ,-5px);
+    }
+    footer p{
+    font-size: 18px;
+    }
+    
+    

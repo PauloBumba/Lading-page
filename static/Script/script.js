@@ -2,10 +2,16 @@ var sr = new ScrollReveal();
 
         
 sr.reveal(".flores",{
-origin:"top",
-distance:"20%",
+origin:"left",
+distance:"30%",
 duration:2000,
-delay:20,
-reset:"false"
+
+
+})
+sr.reveal("#nav",{
+origin:"left",
+distance:"30%",
+duration:2000,
+
 
 })
